@@ -53,6 +53,11 @@ public enum DeviceType: String, CaseIterable {
     case iPhone12Pro
     case iPhone12ProMax
 
+    case iPhone13Mini
+    case iPhone13
+    case iPhone13Pro
+    case iPhone13ProMax
+
     case iPodTouch1G
     case iPodTouch2G
     case iPodTouch3G
@@ -146,6 +151,10 @@ public extension DeviceType {
         case .iPhone12: return "iPhone 12"
         case .iPhone12Pro: return "iPhone 12 Pro"
         case .iPhone12ProMax: return "iPhone 12 Pro Max"
+        case .iPhone13Mini: return "iPhone 13 Mini"
+        case .iPhone13: return "iPhone 13"
+        case .iPhone13Pro: return "iPhone 13 Pro"
+        case .iPhone13ProMax: return "iPhone 13 Pro Max"
 
         case .iPodTouch1G: return "iPod Touch"
         case .iPodTouch2G: return "iPod Touch (2nd generation)"
@@ -220,6 +229,10 @@ public extension DeviceType {
         case .iPhone12: return ["iPhone13,2"]
         case .iPhone12Pro: return ["iPhone13,3"]
         case .iPhone12ProMax: return ["iPhone13,4"]
+        case .iPhone13Mini: return ["iPhone14,4"]
+        case .iPhone13: return ["iPhone14,5"]
+        case .iPhone13Pro: return ["iPhone14,2"]
+        case .iPhone13ProMax: return ["iPhone14,3"]
 
         case .iPodTouch1G: return ["iPod1,1"]
         case .iPodTouch2G: return ["iPod2,1"]
