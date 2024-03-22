@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.2.3
+
+- **Added**: iPhone 15, iPhone 15 Plus, iPhone 15 Pro, iPhone 15 Pro Max
+
 ## 1.2.2
 
 - **Added**: iPad 11 Inch
