@@ -47,6 +47,15 @@ private extension DeviceType {
         case .iPhoneXSMax: return ["iPhone11,4", "iPhone11,6"]
         case .iPhoneXR: return ["iPhone11,8"]
 
+        case .iPhone11: return ["iPhone12,1"]
+        case .iPhone11Pro: return ["iPhone12,3"]
+        case .iPhone11ProMax: return ["iPhone12,5"]
+        case .iPhoneSEGen2: return ["iPhone12,8"]
+        case .iPhone12Mini: return ["iPhone13,1"]
+        case .iPhone12: return ["iPhone13,2"]
+        case .iPhone12Pro: return ["iPhone13,3"]
+        case .iPhone12ProMax: return ["iPhone13,4"]
+
         case .iPodTouch1G: return ["iPod1,1"]
         case .iPodTouch2G: return ["iPod2,1"]
         case .iPodTouch3G: return ["iPod3,1"]
@@ -95,7 +104,7 @@ class DeviceTests: XCTestCase {
                 "iPad3,6", "iPad4,1", "iPad4,2", "iPad4,3", "iPad4,4", "iPad4,5", "iPad4,6",
                 "iPad4,7", "iPad4,8", "iPad5,1", "iPad5,2", "iPad5,3", "iPad5,4", "iPad6,3",
                 "iPad6,4", "iPad6,7", "iPad6,8", "iPad7,1", "iPad7,2", "iPad7,3", "iPad7,4",
-                "iPad6,11", "iPad6,12", "iPad7,5", "iPad7,6", "iPad8,1", "iPad8,2", "iPad8,3", 
+                "iPad6,11", "iPad6,12", "iPad7,5", "iPad7,6", "iPad8,1", "iPad8,2", "iPad8,3",
                 "iPad8,4", "iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8"]
     }
 

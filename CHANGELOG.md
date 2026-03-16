@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.3.0
+
+- **Added**: Swift Package Manager support
+- **Added**: New iPhone and iPad models
+
 ## 1.2.2
 
 - **Added**: iPad 11 Inch
