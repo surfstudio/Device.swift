@@ -24,14 +24,14 @@ You can add `Device` to your project using Swift Package Manager.
 In Xcode, go to **File > Add Packages...** and use the URL:
 
 ```text
-https://github.com/schickling/Device.swift.git
+https://github.com/surfstudio/Device.swift.git
 ```
 
 Or add it to your `Package.swift` dependencies:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/schickling/Device.swift.git", from: "1.3.0")
+    .package(url: "https://github.com/surfstudio/Device.swift.git", from: "1.3.0")
 ]
 ```
 
